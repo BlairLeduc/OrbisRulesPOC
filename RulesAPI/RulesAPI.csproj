@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200825175848_Initial.cs" />
+    <Compile Remove="Migrations\20200825175848_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200825180203_Initial.cs" />
+    <Compile Remove="Migrations\20200825180203_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200825182627_Initial.cs" />
+    <Compile Remove="Migrations\20200825182627_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200825192839_Initial.cs" />
+    <Compile Remove="Migrations\20200825192839_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200825211055_Initial.cs" />
+    <Compile Remove="Migrations\20200825211055_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200826133957_AddDeliveryPartner.cs" />
+    <Compile Remove="Migrations\20200826133957_AddDeliveryPartner.Designer.cs" />
+    <Compile Remove="Migrations\20200826165304_Initial.cs" />
+    <Compile Remove="Migrations\20200826165304_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200826172913_Initial.cs" />
+    <Compile Remove="Migrations\20200826172913_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200826180910_Initial.cs" />
+    <Compile Remove="Migrations\20200826180910_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+</Project>
